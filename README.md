@@ -99,6 +99,13 @@ excessive API calls.
 
 ---
 
+## Disclaimer
+This integration is not affiliated with or endorsed by PrimaGas or SHV
+Energy. It uses the same API as the official customer portal. Use at your
+own risk. The API may change at any time without notice.
+
+---
+
 ## Troubleshooting
 
 ### Login fails with `invalid_auth`

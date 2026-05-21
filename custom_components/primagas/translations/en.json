@@ -1,0 +1,42 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "PrimaGas account",
+        "description": "Sign in with your kunden.primagas.de credentials.",
+        "data": {
+          "username": "E-mail",
+          "password": "Password"
+        }
+      },
+      "reauth_confirm": {
+        "title": "Re-authenticate {username}",
+        "description": "The PrimaGas session has expired. Please re-enter your password.",
+        "data": {
+          "password": "Password"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Invalid e-mail or password.",
+      "cannot_connect": "Could not reach login.primagas.de.",
+      "account_mismatch": "This sign-in is for a different account than the one originally configured.",
+      "unknown": "Unexpected error. Check the log."
+    },
+    "abort": {
+      "already_configured": "This PrimaGas account is already configured.",
+      "reauth_successful": "Re-authentication succeeded."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "level_percentage": { "name": "Fill level" },
+      "filling_volume": { "name": "Current volume" },
+      "capacity": { "name": "Tank capacity" },
+      "stock_left_days": { "name": "Stock remaining" },
+      "predicted_delivery_date": { "name": "Predicted delivery date" },
+      "replenishment_volume": { "name": "Recommended refill volume" },
+      "predicted_runout_date": { "name": "Predicted runout date" }
+    }
+  }
+}

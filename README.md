@@ -6,6 +6,7 @@
 
 A custom Home Assistant integration for monitoring your PrimaGas LPG tank via
 the [kunden.primagas.de](https://kunden.primagas.de) customer portal.
+This integration was developed with assistance from AI tools and manually reviewed.
 
 ---
 

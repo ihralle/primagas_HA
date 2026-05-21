@@ -1,0 +1,42 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "PrimaGas-Konto",
+        "description": "Melde dich mit deinen Zugangsdaten von kunden.primagas.de an.",
+        "data": {
+          "username": "E-Mail",
+          "password": "Passwort"
+        }
+      },
+      "reauth_confirm": {
+        "title": "Neu anmelden ({username})",
+        "description": "Die PrimaGas-Sitzung ist abgelaufen. Bitte gib dein Passwort erneut ein.",
+        "data": {
+          "password": "Passwort"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "E-Mail oder Passwort ungültig.",
+      "cannot_connect": "login.primagas.de ist nicht erreichbar.",
+      "account_mismatch": "Diese Anmeldung gehört zu einem anderen Konto als ursprünglich konfiguriert.",
+      "unknown": "Unerwarteter Fehler. Schau ins Log."
+    },
+    "abort": {
+      "already_configured": "Dieses PrimaGas-Konto ist bereits eingebunden.",
+      "reauth_successful": "Neuanmeldung erfolgreich."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "level_percentage": { "name": "Füllstand" },
+      "filling_volume": { "name": "Aktuelle Füllmenge" },
+      "capacity": { "name": "Tank-Kapazität" },
+      "stock_left_days": { "name": "Reichweite" },
+      "predicted_delivery_date": { "name": "Voraussichtliches Lieferdatum" },
+      "replenishment_volume": { "name": "Empfohlene Liefermenge" },
+      "predicted_runout_date": { "name": "Voraussichtliches Leerdatum" }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "PrimaGas",
+  "domains": ["sensor"],
+  "iot_class": "cloud_polling",
+  "homeassistant": "2026.5.3"
+}
